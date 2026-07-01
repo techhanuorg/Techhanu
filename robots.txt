@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://techhanu.io/sitemap.xml
+
+# Block unnecessary paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
