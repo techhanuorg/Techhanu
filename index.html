@@ -13,11 +13,11 @@
 <meta property="og:url" content="https://techhanu.io"/>
 <link rel="canonical" href="https://techhanu.io"/>
 
-<!-- ✅ Google Search Console Verification -->
+<!-- Google Search Console Verification -->
 <meta name="google-site-verification" content="google635a384c561b988f"/>
 <meta name="google-site-verification" content="-maLIAYt3Ij7HR7usimt3t9mtbogZFGFLf98DZHvYFI"/>
 
-<!-- ✅ Advanced SEO Meta Tags -->
+<!-- Advanced SEO Meta Tags -->
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
 <meta name="author" content="TechHanu"/>
 <meta name="geo.region" content="IN"/>
@@ -26,7 +26,7 @@
 <meta name="revisit-after" content="7 days"/>
 <meta name="rating" content="general"/>
 
-<!-- ✅ Open Graph (Facebook/WhatsApp preview) -->
+<!-- Open Graph (Facebook/WhatsApp preview) -->
 <meta property="og:site_name" content="TechHanu"/>
 <meta property="og:locale" content="en_IN"/>
 <meta property="og:image" content="https://techhanu.io/og-image.jpg"/>
@@ -34,20 +34,20 @@
 <meta property="og:image:height" content="630"/>
 <meta property="og:image:alt" content="TechHanu — Professional Web Development Agency India"/>
 
-<!-- ✅ Twitter Card -->
+<!-- Twitter Card -->
 <meta name="twitter:site" content="@singh7663Ram"/>
 <meta name="twitter:title" content="TechHanu — Website & App Building Agency India"/>
 <meta name="twitter:description" content="India's trusted website & app building agency. 130+ websites. 150+ clients. 20% advance, rest on delivery. Professional web & app development."/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://techhanu.io/og-image.jpg"/>
 
-<!-- ✅ Additional SEO Signals -->
+<!-- Additional SEO Signals -->
 <meta name="subject" content="Website Building and App Development Services India"/>
 <meta name="abstract" content="Professional website building and web app development agency in India. Custom websites, apps, SEO, and digital marketing services."/>
 <meta name="topic" content="Website Building, App Development, Web Development India"/>
 <meta name="classification" content="Business, Technology, Web Development"/>
 
-<!-- ✅ JSON-LD Structured Data -->
+<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -574,6 +574,76 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 2.5rem;display
 .why-icon-svg{font-size:0;margin-bottom:1rem}
 .demo-emoji-svg{position:relative;z-index:2;display:flex;align-items:center;justify-content:center}
 
+/* ===== WHATSAPP AI AGENT SECTION ===== */
+.wa-ai-wrap{margin:0 2.5rem;border-radius:20px;overflow:hidden;position:relative;background:var(--card);border:1px solid var(--border)}
+.wa-ai-wrap::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#25D366,transparent)}
+.wa-ai-inner{padding:5rem;position:relative;z-index:1}
+.wa-ai-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:start}
+.wa-ai-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(37,211,102,.1);border:1px solid rgba(37,211,102,.25);color:#25D366;padding:.35rem 1rem;border-radius:4px;font-size:.72rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:1.5rem;font-family:'JetBrains Mono',monospace}
+.wa-ai-h{font-family:'Syne',sans-serif;font-size:clamp(1.8rem,3vw,2.6rem);font-weight:800;line-height:1.1;letter-spacing:-1px;margin-bottom:1rem}
+.wa-ai-h .g{color:#25D366}
+.wa-ai-p{font-size:.9rem;color:var(--text2);line-height:1.75;margin-bottom:2rem}
+.wa-ai-features{display:grid;grid-template-columns:1fr 1fr;gap:.6rem;margin-bottom:2rem}
+.wa-ai-feat{display:flex;align-items:flex-start;gap:.6rem;font-size:.8rem;color:var(--text2);line-height:1.4}
+.wa-ai-feat-icon{width:16px;height:16px;flex-shrink:0;margin-top:.1rem}
+.wa-ai-feat-icon svg{display:block}
+
+/* Workflow diagram */
+.wa-workflow{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:2rem;margin-bottom:2rem}
+.wa-workflow-title{font-size:.68rem;color:var(--text3);font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:1.2rem;font-family:'JetBrains Mono',monospace}
+.wa-flow-steps{display:flex;flex-direction:column;gap:.5rem}
+.wa-flow-row{display:flex;align-items:center;gap:.6rem}
+.wa-flow-step{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:.6rem 1rem;font-size:.78rem;font-weight:500;flex:1;text-align:center;transition:all .2s}
+.wa-flow-step:hover{border-color:rgba(37,211,102,.3);background:rgba(37,211,102,.04)}
+.wa-flow-arrow{color:rgba(37,211,102,.5);font-size:.9rem;flex-shrink:0}
+.wa-flow-desc{font-size:.72rem;color:var(--text3);margin-top:1rem;line-height:1.5}
+
+/* Right panel stats */
+.wa-ai-stats{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.5rem}
+.wa-ai-stat{background:var(--bg2);border:1px solid var(--border);border-radius:12px;padding:1.2rem;text-align:center}
+.wa-ai-stat-n{font-family:'Syne',sans-serif;font-size:1.8rem;font-weight:800;color:#25D366;line-height:1}
+.wa-ai-stat-l{font-size:.7rem;color:var(--text3);margin-top:.3rem;font-family:'JetBrains Mono',monospace;letter-spacing:.5px}
+.wa-ai-cta{display:inline-flex;align-items:center;gap:.6rem;background:#25D366;color:#0a0a0c;padding:.8rem 1.8rem;border-radius:8px;font-weight:600;font-size:.9rem;text-decoration:none;transition:all .2s;border:none;cursor:pointer}
+.wa-ai-cta:hover{background:#1fba5a;transform:translateY(-2px);box-shadow:0 8px 32px rgba(37,211,102,.3)}
+
+@media(max-width:900px){.wa-ai-wrap{margin:0 1.25rem}.wa-ai-inner{padding:2.5rem 1.5rem}.wa-ai-grid{grid-template-columns:1fr;gap:2.5rem}.wa-ai-features{grid-template-columns:1fr}}
+
+/* ===== WHATSAPP PRICING SECTION ===== */
+.wa-pricing-grid{display:grid;grid-template-columns:1fr 1.12fr 1fr;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:20px;overflow:hidden;margin-top:3rem}
+.wpc{background:var(--card);padding:2.5rem;position:relative;transition:background .25s}
+.wpc:hover{background:var(--card2)}
+.wpc.wpop{background:var(--card2)}
+.wpc.wpop::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,#25D366,transparent)}
+.wpc-name{font-size:.7rem;color:var(--text3);font-weight:600;letter-spacing:2px;text-transform:uppercase;margin-bottom:.4rem;font-family:'JetBrains Mono',monospace}
+.wpc-price{font-family:'Syne',sans-serif;font-size:2.4rem;font-weight:800;color:var(--text);letter-spacing:-1.5px;line-height:1}
+.wpc-price sup{font-size:1rem;color:var(--text2);font-weight:600}
+.wpc-price .mo{font-size:.78rem;color:var(--text2);font-weight:400;letter-spacing:0}
+.wpc-custom-price{font-family:'Syne',sans-serif;font-size:1.5rem;font-weight:800;color:var(--gold);margin-bottom:.2rem}
+.wpc-desc{font-size:.8rem;color:var(--text2);line-height:1.6;margin:.6rem 0 1.2rem}
+.wpc-list{list-style:none;margin-bottom:1.8rem}
+.wpc-list li{font-size:.8rem;color:var(--text2);padding:.35rem 0;border-bottom:1px solid rgba(255,255,255,.04);display:flex;align-items:flex-start;gap:.5rem;line-height:1.4}
+.wpc-list li::before{content:'';width:14px;height:14px;flex-shrink:0;margin-top:.1rem;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%2325D366' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") center no-repeat;background-size:contain}
+.wpc-btn{display:block;width:100%;padding:.8rem 1rem;border-radius:8px;font-weight:600;font-size:.82rem;text-align:center;text-decoration:none;transition:all .22s;border:none;cursor:pointer;letter-spacing:.1px}
+.wpc-btn-out{background:transparent;border:1px solid var(--border2);color:var(--text)}
+.wpc-btn-out:hover{border-color:rgba(37,211,102,.5);color:#25D366}
+.wpc-btn-wa{background:#25D366;color:#0a0a0c}
+.wpc-btn-wa:hover{background:#1fba5a}
+.wpop-tag{display:inline-block;background:#25D366;color:#0a0a0c;font-size:.65rem;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:.2rem .6rem;border-radius:3px;margin-bottom:.8rem;font-family:'JetBrains Mono',monospace}
+
+/* API Disclaimer */
+.api-disclaimer{background:rgba(201,162,39,.04);border:1px solid rgba(201,162,39,.18);border-radius:14px;padding:1.8rem 2rem;margin-top:2rem}
+.api-disclaimer-title{font-size:.82rem;font-weight:600;color:var(--gold);margin-bottom:.5rem;display:flex;align-items:center;gap:.5rem}
+.api-disclaimer-text{font-size:.78rem;color:var(--text2);line-height:1.7}
+
+@media(max-width:1024px){.wa-pricing-grid{grid-template-columns:1fr}}
+@media(max-width:768px){.wa-pricing-grid{grid-template-columns:1fr}.api-disclaimer{padding:1.2rem}}
+
+/* ===== ENHANCED FORM ===== */
+.sub-btn:disabled{opacity:.6;cursor:not-allowed;transform:none!important;box-shadow:none!important}
+.ferror{display:none;background:rgba(224,90,90,.08);border:1px solid rgba(224,90,90,.25);border-radius:8px;padding:.8rem 1.1rem;font-size:.82rem;color:#e05a5a;margin-top:.75rem}
+.field-error{border-color:rgba(224,90,90,.5)!important}
+.fg input.field-error,.fg select.field-error,.fg textarea.field-error{border-color:rgba(224,90,90,.5)!important;box-shadow:0 0 0 3px rgba(224,90,90,.07)!important}
+
 </style>
 </head>
 <body>
@@ -590,12 +660,13 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 2.5rem;display
   <div class="nav-right">
     <a href="#services" class="nav-link">Services</a>
     <a href="#pricing" class="nav-link">Pricing</a>
+    <a href="#whatsapp-ai" class="nav-link">WhatsApp AI</a>
     <a href="#demos" class="nav-link">Work</a>
     <a href="#faq" class="nav-link">FAQ</a>
     <a href="#team" class="nav-link">Team</a>
     <a href="#contact" class="nav-link">Contact</a>
-    <a href="https://wa.me/918470901434?text=Hello%20TechHanu!%20I%20want%20a%20free%20consultation." target="_blank" class="nav-cta">Book Free Call →</a>
-    <a href="https://wa.me/918470901434" target="_blank" class="nav-mobile-cta">WhatsApp →</a>
+    <a href="https://wa.me/918470901434?text=Hello%20TechHanu!%20I%20want%20a%20free%20consultation." target="_blank" class="nav-cta">Book Free Call</a>
+    <a href="https://wa.me/918470901434" target="_blank" class="nav-mobile-cta">WhatsApp</a>
   </div>
 </nav>
 
@@ -807,7 +878,7 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 2.5rem;display
         <li>Google My Business Setup</li>
         <li>WhatsApp + Live Chat</li>
         <li>Speed & Core Web Vitals Optimized</li>
-        <li><strong style="color:var(--gold)">2 Months Free Support ✦</strong></li>
+        <li><strong style="color:var(--gold)">2 Months Free Support</strong></li>
         <li class="x">Paid Ads Management</li>
         <li class="x">Brand Identity Kit</li>
       </ul>
@@ -844,6 +915,131 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 2.5rem;display
     </div>
   </div>
   <p style="text-align:center;color:var(--text3);font-size:.72rem;margin-top:1.5rem;font-family:'JetBrains Mono',monospace">20% advance to start · pay 80% on delivery · zero hidden fees · satisfaction guaranteed</p>
+</section>
+
+<!-- WHATSAPP AI AGENT SECTION -->
+<div class="wa-ai-wrap r" id="whatsapp-ai">
+  <div class="wa-ai-inner">
+    <div class="wa-ai-grid">
+      <div>
+        <div class="wa-ai-badge">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          WhatsApp AI Agent
+        </div>
+        <h2 class="wa-ai-h">Turn WhatsApp into an <span class="g">intelligent customer</span> communication system.</h2>
+        <p class="wa-ai-p">Our WhatsApp AI Agent helps businesses automate customer conversations, answer questions, capture leads, and handle repetitive support tasks around the clock.</p>
+        <div class="wa-ai-features">
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>24/7 automated customer responses</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>AI-powered FAQ handling</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Custom business knowledge base</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Lead capture and qualification</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Automated enquiry handling</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Customer information collection</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Human handoff when required</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Custom workflow automation</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Google Sheets and CRM integration</div>
+          <div class="wa-ai-feat"><span class="wa-ai-feat-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></span>Scalable conversation workflows</div>
+        </div>
+        <a href="#wa-pricing" class="wa-ai-cta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+          Get WhatsApp AI Agent
+        </a>
+      </div>
+      <div>
+        <div class="wa-ai-stats">
+          <div class="wa-ai-stat"><div class="wa-ai-stat-n">24/7</div><div class="wa-ai-stat-l">Always On</div></div>
+          <div class="wa-ai-stat"><div class="wa-ai-stat-n">60s</div><div class="wa-ai-stat-l">Avg Response</div></div>
+          <div class="wa-ai-stat"><div class="wa-ai-stat-n">80%</div><div class="wa-ai-stat-l">Query Automation</div></div>
+          <div class="wa-ai-stat"><div class="wa-ai-stat-n">100%</div><div class="wa-ai-stat-l">Custom Built</div></div>
+        </div>
+        <div class="wa-workflow">
+          <div class="wa-workflow-title">How It Works</div>
+          <div class="wa-flow-steps">
+            <div class="wa-flow-row"><div class="wa-flow-step" style="border-color:rgba(37,211,102,.3)">Customer Message</div></div>
+            <div class="wa-flow-row" style="justify-content:center"><span style="color:rgba(37,211,102,.6);font-size:1.1rem;line-height:1.5">&#8595;</span></div>
+            <div class="wa-flow-row"><div class="wa-flow-step">AI Processing</div></div>
+            <div class="wa-flow-row" style="justify-content:center"><span style="color:rgba(37,211,102,.6);font-size:1.1rem;line-height:1.5">&#8595;</span></div>
+            <div class="wa-flow-row"><div class="wa-flow-step">Automated Response</div></div>
+            <div class="wa-flow-row" style="justify-content:center"><span style="color:rgba(37,211,102,.6);font-size:1.1rem;line-height:1.5">&#8595;</span></div>
+            <div class="wa-flow-row"><div class="wa-flow-step">Lead Capture</div></div>
+            <div class="wa-flow-row" style="justify-content:center"><span style="color:rgba(37,211,102,.6);font-size:1.1rem;line-height:1.5">&#8595;</span></div>
+            <div class="wa-flow-row"><div class="wa-flow-step" style="border-color:rgba(201,162,39,.3)">Human Handoff (if needed)</div></div>
+          </div>
+          <div class="wa-flow-desc">Every conversation is intelligently handled — from initial enquiry to lead qualification and human handoff when required.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- WHATSAPP AI AGENT PRICING -->
+<section class="sec" id="wa-pricing">
+  <div class="r">
+    <div class="sec-eyebrow">Simple, Transparent <span>Pricing</span></div>
+    <h2 class="sec-h">WhatsApp AI Agent Plans</h2>
+    <p class="sec-p" style="max-width:580px">Choose a plan based on your automation requirements. WhatsApp/Meta API charges are billed separately according to actual usage.</p>
+  </div>
+  <div class="wa-pricing-grid r d1">
+    <div class="wpc">
+      <div class="wpc-name">Starter</div>
+      <div class="wpc-price"><sup>&#8377;</sup>4,999<span class="mo"> / month</span></div>
+      <p class="wpc-desc">For small businesses starting with WhatsApp automation.</p>
+      <ul class="wpc-list">
+        <li>WhatsApp AI Agent</li>
+        <li>Basic FAQ automation</li>
+        <li>Automated customer replies</li>
+        <li>Lead enquiry capture</li>
+        <li>Basic business knowledge base</li>
+        <li>Basic workflow automation</li>
+        <li>Google Sheets integration</li>
+        <li>Standard support</li>
+      </ul>
+      <a href="https://wa.me/918470901434?text=I%27m%20interested%20in%20the%20WhatsApp%20AI%20Agent%20Starter%20Plan" target="_blank" class="wpc-btn wpc-btn-out">Get Started</a>
+    </div>
+    <div class="wpc wpop">
+      <div class="wpop-tag">Most Popular</div>
+      <div class="wpc-name">Business</div>
+      <div class="wpc-price"><sup>&#8377;</sup>9,999<span class="mo"> / month</span></div>
+      <p class="wpc-desc">For businesses that need advanced WhatsApp automation.</p>
+      <ul class="wpc-list">
+        <li>Everything in Starter</li>
+        <li>Advanced AI responses</li>
+        <li>Custom business knowledge base</li>
+        <li>Lead qualification</li>
+        <li>Advanced automation workflows</li>
+        <li>Google Sheets integration</li>
+        <li>CRM / API integration</li>
+        <li>Human handoff</li>
+        <li>Custom conversation flows</li>
+        <li>Priority support</li>
+      </ul>
+      <a href="https://wa.me/918470901434?text=I%27m%20interested%20in%20the%20WhatsApp%20AI%20Agent%20Business%20Plan" target="_blank" class="wpc-btn wpc-btn-wa">Choose Business</a>
+    </div>
+    <div class="wpc">
+      <div class="wpc-name">Custom</div>
+      <div class="wpc-custom-price">Custom Pricing</div>
+      <p class="wpc-desc">For schools, institutions, and businesses requiring custom automation.</p>
+      <ul class="wpc-list">
+        <li>Custom WhatsApp AI Agent</li>
+        <li>Custom AI knowledge base</li>
+        <li>Custom automation workflows</li>
+        <li>Multiple integrations</li>
+        <li>CRM / API integrations</li>
+        <li>Custom enquiry management</li>
+        <li>Custom dashboard requirements</li>
+        <li>Dedicated implementation</li>
+        <li>Priority support</li>
+      </ul>
+      <a href="#contact" class="wpc-btn wpc-btn-out">Contact Us</a>
+    </div>
+  </div>
+  <div class="api-disclaimer r d2">
+    <div class="api-disclaimer-title">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+      WhatsApp / Meta API charges are not included in the subscription plans.
+    </div>
+    <div class="api-disclaimer-text">WhatsApp Business Platform and Meta API usage charges are billed separately based on applicable Meta pricing and actual usage. API costs may vary depending on message type, destination, conversation volume, and other applicable factors. The subscription price above is our service and AI automation fee only.</div>
+  </div>
 </section>
 
 <!-- FAQ (visible, mirrors JSON-LD FAQPage schema for AI/LLM answer engines) -->
@@ -940,41 +1136,69 @@ nav{position:fixed;top:0;left:0;right:0;z-index:500;padding:.9rem 2.5rem;display
   <div class="r" style="text-align:center;margin-bottom:3rem">
     <div class="sec-eyebrow" style="justify-content:center">Get In <span>Touch</span></div>
     <h2 class="sec-h" style="letter-spacing:-1px">Let's Build Something.</h2>
-    <p class="sec-p" style="margin:0 auto;text-align:center">Fill the form below and we'll respond on WhatsApp within 1 hour.</p>
+    <p class="sec-p" style="margin:0 auto;text-align:center">Fill the form below and our team will get back to you shortly.</p>
   </div>
   <div class="cf r d1">
     <div id="formContent">
       <div class="cf-header">
-        <div style="font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--text3);margin-bottom:.3rem">new_project_inquiry.js</div>
-        <div style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;letter-spacing:-.3px">Tell us about your project.</div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.72rem;color:var(--text3);margin-bottom:.3rem">new_enquiry.js</div>
+        <div style="font-family:'Syne',sans-serif;font-size:1.4rem;font-weight:700;letter-spacing:-.3px">Send Us Your Enquiry.</div>
       </div>
       <div class="form-row">
-        <div class="fg"><label>Your Name *</label><input type="text" id="fname" placeholder="Full name" required/></div>
-        <div class="fg"><label>Phone Number *</label><input type="tel" id="fphone" placeholder="+91 XXXXX XXXXX" required/></div>
+        <div class="fg">
+          <label for="fname">Full Name *</label>
+          <input type="text" id="fname" name="fname" placeholder="Your full name" required autocomplete="name"/>
+        </div>
+        <div class="fg">
+          <label for="fbusiness">Business / Organization *</label>
+          <input type="text" id="fbusiness" name="fbusiness" placeholder="e.g. Restaurant, School, Startup..." required/>
+        </div>
       </div>
-      <div class="fg"><label>Email Address</label><input type="email" id="femail" placeholder="you@company.com"/></div>
-      <div class="fg"><label>Your Business *</label><input type="text" id="fbusiness" placeholder="e.g. Restaurant, Gym, E-Commerce Store..." required/></div>
+      <div class="form-row">
+        <div class="fg">
+          <label for="femail">Email Address *</label>
+          <input type="email" id="femail" name="femail" placeholder="you@company.com" required autocomplete="email"/>
+        </div>
+        <div class="fg">
+          <label for="fphone">Phone Number *</label>
+          <input type="tel" id="fphone" name="fphone" placeholder="+91 XXXXX XXXXX" required autocomplete="tel"/>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="fg">
+          <label for="fwa">WhatsApp Number <span style="color:var(--text3);font-weight:400">(optional)</span></label>
+          <input type="tel" id="fwa" name="fwa" placeholder="Same as phone or different"/>
+        </div>
+        <div class="fg">
+          <label for="fservice">Service Required *</label>
+          <select id="fservice" name="fservice" required>
+            <option value="">Select a service</option>
+            <option value="WhatsApp AI Agent">WhatsApp AI Agent</option>
+            <option value="Website Development">Website Development</option>
+            <option value="AI Automation">AI Automation</option>
+            <option value="Custom Automation">Custom Automation</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+      </div>
       <div class="fg">
-        <label>Budget / Plan</label>
-        <select id="fplan">
-          <option value="">Select an option</option>
-          <option>Starter — ₹4,999</option>
-          <option>Growth — ₹10,999</option>
-          <option>Pro / Elite — ₹23,999–₹48,999</option>
-          <option>Enterprise / Monthly Retainer</option>
-          <option>Not sure — let's discuss</option>
-        </select>
+        <label for="fvolume">Monthly Automation Requirement / Expected Enquiry Volume</label>
+        <input type="text" id="fvolume" name="fvolume" placeholder="e.g. 100-500 messages/month, 50 enquiries/day..."/>
       </div>
-      <div class="fg"><label>Project Details</label><textarea id="fmsg" placeholder="What do you need? Any specific features, timeline, or industry details..."></textarea></div>
-      <button class="sub-btn" onclick="submitForm()">Send Message & We'll Call Back →</button>
+      <div class="fg">
+        <label for="fmsg">Message / Requirements</label>
+        <textarea id="fmsg" name="fmsg" placeholder="Tell us about your project, specific requirements, timeline, or anything else..."></textarea>
+      </div>
+      <div class="ferror" id="formError">We couldn't submit your enquiry right now. Please try again in a moment.</div>
+      <button class="sub-btn" id="submitBtn" type="button" onclick="submitEnquiry()">Send Enquiry</button>
     </div>
     <div class="fsuccess" id="formSuccess">
-      <div class="fsuccess-icon">✅</div>
-      <div class="fsuccess-t">Message Sent!</div>
-      <div class="fsuccess-s">We'll reach out on WhatsApp within 1 hour. Talk soon.</div>
+      <div class="fsuccess-icon" style="font-size:0;margin-bottom:1.2rem"><svg width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="var(--gold)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+      <div class="fsuccess-t">Enquiry Received!</div>
+      <div class="fsuccess-s">Thank you. Your enquiry has been received successfully. Our team will contact you shortly.</div>
       <div style="display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap">
-        <a href="https://wa.me/918470901434" target="_blank" class="btn-a" style="width:fit-content">WhatsApp Now →</a>
-        <a href="https://ig.me/m/techhanu.io" target="_blank" class="btn-b" style="width:fit-content">DM on Instagram →</a>
+        <a href="https://wa.me/918470901434" target="_blank" class="btn-a" style="width:fit-content">WhatsApp Us</a>
+        <a href="https://ig.me/m/techhanu.io" target="_blank" class="btn-b" style="width:fit-content">DM on Instagram</a>
       </div>
     </div>
   </div>
@@ -1116,32 +1340,119 @@ const sb=document.querySelector('.stats-bar');if(sb)statsObs.observe(sb);
 })();
 
 
-// FORM
-function sanitize(s){return s.replace(/[<>"'&]/g,c=>({'<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','&':'&amp;'}[c]))}
-function submitForm(){
-  const name=sanitize(document.getElementById('fname').value.trim());
-  const phone=document.getElementById('fphone').value.trim();
-  const business=sanitize(document.getElementById('fbusiness').value.trim());
-  if(!name||!phone||!business){alert('Please fill in your name, phone number, and business name.');return}
-  if(!/^[6-9]\d{9}$/.test(phone.replace(/[\s+\-()]/g,'').slice(-10))){alert('Please enter a valid Indian mobile number.');return}
-  const plan=sanitize(document.getElementById('fplan').value);
-  const msg=sanitize(document.getElementById('fmsg').value);
-  const wa=`Hello TechHanu! 🙏\n\nName: ${name}\nPhone: ${phone}\nBusiness: ${business}${plan?'\nPlan: '+plan:''}${msg?'\n\nDetails: '+msg:''}`;
-  window.open('https://wa.me/918470901434?text='+encodeURIComponent(wa),'_blank');
-  document.getElementById('formContent').style.display='none';
-  document.getElementById('formSuccess').style.display='block';
+// ============================================================
+// ENQUIRY FORM — Google Apps Script Backend
+// ============================================================
+// SETUP INSTRUCTIONS:
+// 1. Go to https://script.google.com/ and create a new project
+// 2. Paste the contents of google-apps-script/Code.gs
+// 3. Deploy as Web App (Execute as: Me, Access: Anyone)
+// 4. Copy the deployment URL and paste it below
+// ============================================================
+const APPS_SCRIPT_URL = 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE';
+// ============================================================
+
+let formSubmitting = false;
+
+function clearFieldErrors() {
+  document.querySelectorAll('.field-error').forEach(el => el.classList.remove('field-error'));
+}
+
+function showFieldError(id) {
+  const el = document.getElementById(id);
+  if (el) el.classList.add('field-error');
+}
+
+function sanitizeInput(s) {
+  return String(s).replace(/[<>"'&]/g, c => ({'<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;','&':'&amp;'}[c]));
+}
+
+function isValidEmail(email) {
+  return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+}
+
+function isValidPhone(phone) {
+  return /^[6-9]\d{9}$/.test(phone.replace(/[\s+\-()]/g,'').slice(-10));
+}
+
+function submitEnquiry() {
+  if (formSubmitting) return;
+
+  clearFieldErrors();
+  document.getElementById('formError').style.display = 'none';
+
+  const name = document.getElementById('fname').value.trim();
+  const business = document.getElementById('fbusiness').value.trim();
+  const email = document.getElementById('femail').value.trim();
+  const phone = document.getElementById('fphone').value.trim();
+  const wa = document.getElementById('fwa').value.trim();
+  const service = document.getElementById('fservice').value;
+  const volume = document.getElementById('fvolume').value.trim();
+  const msg = document.getElementById('fmsg').value.trim();
+
+  let valid = true;
+
+  if (!name) { showFieldError('fname'); valid = false; }
+  if (!business) { showFieldError('fbusiness'); valid = false; }
+  if (!email || !isValidEmail(email)) { showFieldError('femail'); valid = false; }
+  if (!phone || !isValidPhone(phone)) { showFieldError('fphone'); valid = false; }
+  if (!service) { showFieldError('fservice'); valid = false; }
+
+  if (!valid) {
+    document.getElementById('formError').textContent = 'Please fill in all required fields correctly.';
+    document.getElementById('formError').style.display = 'block';
+    return;
+  }
+
+  const btn = document.getElementById('submitBtn');
+  formSubmitting = true;
+  btn.disabled = true;
+  btn.textContent = 'Sending...';
+
+  const payload = {
+    name: sanitizeInput(name),
+    business: sanitizeInput(business),
+    email: sanitizeInput(email),
+    phone: sanitizeInput(phone),
+    wa: sanitizeInput(wa),
+    service: sanitizeInput(service),
+    volume: sanitizeInput(volume),
+    message: sanitizeInput(msg),
+    source: 'Website',
+    status: 'New'
+  };
+
+  if (!APPS_SCRIPT_URL || APPS_SCRIPT_URL === 'YOUR_GOOGLE_APPS_SCRIPT_URL_HERE') {
+    // No Apps Script configured — fallback to WhatsApp redirect
+    const waMsg = `Hello TechHanu!\n\nName: ${name}\nBusiness: ${business}\nEmail: ${email}\nPhone: ${phone}\nService: ${service}${volume?'\nVolume: '+volume:''}${msg?'\n\nDetails: '+msg:''}`;
+    window.open('https://wa.me/918470901434?text='+encodeURIComponent(waMsg),'_blank');
+    document.getElementById('formContent').style.display='none';
+    document.getElementById('formSuccess').style.display='block';
+    formSubmitting = false;
+    btn.disabled = false;
+    btn.textContent = 'Send Enquiry';
+    return;
+  }
+
+  fetch(APPS_SCRIPT_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+  .then(() => {
+    document.getElementById('formContent').style.display='none';
+    document.getElementById('formSuccess').style.display='block';
+  })
+  .catch(() => {
+    document.getElementById('formError').textContent = "We couldn't submit your enquiry right now. Please try again in a moment.";
+    document.getElementById('formError').style.display = 'block';
+    formSubmitting = false;
+    btn.disabled = false;
+    btn.textContent = 'Send Enquiry';
+  });
 }
 </script>
-
-<!-- WHATSAPP FLOAT -->
-<a href="https://wa.me/918470901434?text=Hello%20TechHanu!%20I%20want%20a%20free%20consultation." target="_blank" rel="noopener"
-   style="position:fixed;bottom:1.5rem;left:1.5rem;width:52px;height:52px;border-radius:50%;background:#25d366;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(37,211,102,.45);z-index:9999;transition:transform .2s"
-   title="Chat on WhatsApp"
-   onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1)'">
-  <svg width="26" height="26" viewBox="0 0 24 24" fill="white">
-    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
-  </svg>
-</a>
 
 </body>
 </html>
