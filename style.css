@@ -57,6 +57,8 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: calc(var(--header-height) + 16px);
   -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -80,6 +82,8 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 img, svg {
@@ -133,6 +137,7 @@ a {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  gap: 1rem;
 }
 
 .site-logo {
@@ -143,6 +148,7 @@ a {
   font-size: 1.25rem;
   letter-spacing: -0.02em;
   color: var(--color-text-main);
+  flex-shrink: 0;
 }
 
 .site-logo-icon {
@@ -164,6 +170,11 @@ a {
   color: var(--color-primary);
 }
 
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
@@ -176,17 +187,22 @@ a {
   font-weight: 500;
   color: var(--color-text-muted);
   transition: color 0.15s ease;
-  padding: 0.25rem 0;
+  padding: 0.35rem 0;
 }
 
 .nav-link:hover {
   color: var(--color-primary);
 }
 
-.header-cta-group {
+.mobile-menu-cta {
+  display: none;
+}
+
+.header-action-group {
   display: flex;
   align-items: center;
-  gap: 0.875rem;
+  gap: 0.625rem;
+  flex-shrink: 0;
 }
 
 .nav-toggle-btn {
@@ -194,9 +210,13 @@ a {
   background: transparent;
   border: 1px solid var(--color-border);
   border-radius: var(--radius-sm);
-  padding: 0.5rem;
+  padding: 0.45rem;
   cursor: pointer;
   color: var(--color-text-main);
+  align-items: center;
+  justify-content: center;
+  min-width: 38px;
+  min-height: 38px;
 }
 
 /* Buttons */
@@ -1445,18 +1465,36 @@ a {
     --header-height: 64px;
   }
 
+  .container {
+    padding-left: 1.125rem;
+    padding-right: 1.125rem;
+  }
+
+  .btn-header-quote {
+    display: none !important;
+  }
+
+  .mobile-menu-cta {
+    display: block;
+    margin-top: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--color-border);
+  }
+
   .nav-links {
     display: none;
     position: absolute;
     top: var(--header-height);
     left: 0;
     right: 0;
+    width: 100%;
     background-color: #ffffff;
     border-bottom: 1px solid var(--color-border);
     flex-direction: column;
-    padding: 1.5rem;
-    gap: 1.25rem;
-    box-shadow: var(--shadow-modal);
+    padding: 1.25rem 1.125rem;
+    gap: 1rem;
+    box-shadow: 0 12px 24px -6px rgba(15, 23, 42, 0.15);
+    z-index: 1000;
   }
 
   .nav-links.is-open {
@@ -1467,8 +1505,15 @@ a {
     display: flex;
   }
 
+  .hero-section {
+    padding-top: 3rem;
+    padding-bottom: 3.5rem;
+  }
+
   .hero-title {
     font-size: 2.25rem;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
   .section-title {
@@ -1488,6 +1533,10 @@ a {
     grid-column: span 1;
   }
 
+  .policy-banner {
+    padding: 1.75rem 1.125rem;
+  }
+
   .policy-steps {
     grid-template-columns: 1fr;
   }
@@ -1496,16 +1545,85 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .workflow-card {
+    padding: 1.5rem 1.125rem;
+  }
+
+  .contact-wrap {
+    padding: 1.75rem 1.125rem;
+  }
+
   .form-row {
     grid-template-columns: 1fr;
   }
 
   .footer-top {
     grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   .hero-highlights {
     flex-direction: column;
     gap: 0.75rem;
+  }
+
+  .floating-actions {
+    bottom: 1.25rem;
+    right: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --header-height: 60px;
+  }
+
+  .site-logo {
+    font-size: 1.125rem;
+  }
+
+  .site-logo-icon {
+    width: 32px;
+    height: 32px;
+    font-size: 0.78rem;
+  }
+
+  .hero-title {
+    font-size: 1.875rem;
+    line-height: 1.2;
+  }
+
+  .section-title {
+    font-size: 1.625rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .pricing-card {
+    padding: 1.75rem 1.125rem;
+  }
+
+  .policy-banner {
+    padding: 1.25rem 0.875rem;
+  }
+
+  .contact-wrap {
+    padding: 1.25rem 0.875rem;
+  }
+
+  .hero-card {
+    padding: 1.25rem 1rem;
   }
 }
