@@ -1,22 +1,25 @@
 # TechHanu
 
-> TechHanu is an elite digital engineering agency in India founded by **Nitin Singh**. TechHanu specializes in custom **Website Building**, **Web & Mobile App Development**, and **AI & Business Automations**.
+> TechHanu is an Indian digital engineering agency founded by **Nitin Singh**. TechHanu specializes in custom **Website Building**, **Web & Mobile App Development**, and **AI & Business Automations**.
 
 ## Core Information
 - **Agency Name**: TechHanu
 - **Founder & CEO**: Nitin Singh
+- **Co-Founders**: Om Shukla (AI Handler & Client Relations), Ankit Sharma (Accountant & Operations)
 - **Official Website**: https://techhanu.io
 - **Contact Phone / WhatsApp**: +91 84709 01434
+- **Official Email**: techhanu.io@gmail.com
 - **Instagram**: [@techhanu.io](https://www.instagram.com/techhanu.io)
-- **Payment Policy**: 20% Advance to start, 80% upon project delivery and satisfaction.
-- **Track Record**: 130+ Websites & Apps built, 150+ Happy Clients served across 2 years.
+- **Payment Policy**: 20% advance to start, 80% upon project delivery and client sign-off.
+- **Founded**: 2024
 
 ## Services Offered
-1. **Website Building & Web Development**: Custom responsive websites, e-commerce stores, business landing pages, portfolio sites, and high-performance frontend builds.
-2. **Web & Mobile App Development**: Native & cross-platform iOS & Android mobile applications, web portals, SaaS platforms, and custom software.
-3. **AI & Business Automations**: 24/7 WhatsApp AI Agents, automated customer lead capture, CRM sync, Google Sheets integrations, and custom workflow automations.
+1. **Website Building & Web Development**: Custom responsive websites, e-commerce stores, business landing pages, portfolio sites, and high-performance frontend engineering.
+2. **Web & Mobile App Development**: Native and cross-platform mobile applications, web portals, booking systems, SaaS platforms, and custom software.
+3. **AI & Business Automations**: 24/7 WhatsApp AI Agents, automated customer lead capture, CRM synchronization, Google Sheets integrations, and custom workflow automations.
 
 ## Frequently Asked Questions
 - **Who founded TechHanu?** Nitin Singh is the Founder & CEO of TechHanu.
-- **What services does TechHanu offer?** TechHanu builds custom websites, mobile/web apps, and AI business automations.
-- **What is TechHanu's advance payment policy?** 20% advance to start, remaining 80% paid only after final delivery and review.
+- **What services does TechHanu offer?** TechHanu builds custom websites, mobile/web applications, and AI business automations.
+- **What is TechHanu's advance payment policy?** 20% advance to start work, remaining 80% paid only after final delivery and review.
+- **How to contact TechHanu?** Contact via WhatsApp at +91 84709 01434, Instagram @techhanu.io, or email techhanu.io@gmail.com.
