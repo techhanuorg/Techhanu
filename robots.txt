@@ -24,4 +24,4 @@ User-agent: Bingbot
 Allow: /
 
 # Sitemaps and AI Information
-Sitemap: https://techhanu.io/sitemap.xml
+Sitemap: https://techhanuorg.github.io/Techhanu/sitemap.xml

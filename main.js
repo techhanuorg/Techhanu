@@ -213,7 +213,7 @@
 
   function buildSummaryText(p) {
     let msg = 'Hello TechHanu Team,\n\n';
-    msg += 'I submitted a project enquiry on techhanu.io:\n';
+    msg += 'I submitted a project enquiry on TechHanu (https://techhanuorg.github.io/Techhanu/):\n';
     msg += '• Name: ' + p.name + '\n';
     msg += '• Business: ' + p.business + '\n';
     msg += '• Email: ' + p.email + '\n';

@@ -6,7 +6,7 @@
 - **Agency Name**: TechHanu
 - **Founder & CEO**: Nitin Singh
 - **Co-Founders**: Om Shukla (AI Handler & Client Relations), Ankit Sharma (Accountant & Operations)
-- **Official Website**: https://techhanu.io
+- **Official Website**: https://techhanuorg.github.io/Techhanu/
 - **Contact Phone / WhatsApp**: +91 84709 01434
 - **Official Email**: techhanu.io@gmail.com
 - **Instagram**: [@techhanu.io](https://www.instagram.com/techhanu.io)
